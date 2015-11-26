@@ -1,0 +1,2364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="37d5ebed-afad-4ad0-9491-11a07ba2ab2f"
+  name="View"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="98e4e7da-5bc5-4888-bd0a-a2cf1a8d3bf5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DYahtzee.View"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="487e518b-4fcb-45dd-8b9a-5fb60a82ee40">
+      <profileInstance
+        Id="58a88bbb-070d-4d8d-9b3c-7832c24c7af0"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="26d9dc5e-dc45-4296-bede-5c30df8b37db"
+        name="ClassicYahtzeeView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6d0e087c-c7fa-4777-a7a3-9741ebf4ea6d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="24a0d439-0e50-43c3-8a8f-9b0b1b45be11"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b391bd19-7ca6-43f3-b15c-42e819d79f9e">
+                <propertyInstance
+                  Id="43cf652b-9117-49f5-92b1-8cb12f0299bc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b07e9c0-c6eb-459e-a922-7b4dd86662f1">
+                <propertyInstance
+                  Id="68fb5e6f-ec35-479d-a8bb-ccb2b8635178"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5ab90b0-2e00-4a8b-9586-ad611b887d7c">
+                <propertyInstance
+                  Id="750a01c0-537b-40bd-b4c0-09eb6aebd359"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75248d1a-1df4-4507-afc6-e0c3b5659146">
+                <propertyInstance
+                  Id="f1fb0224-9c47-4cec-98b9-8326d67bcb3e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4801cc5-68ea-4fa4-b015-6353a1d1b86c">
+                <propertyInstance
+                  Id="d7570f1b-3e79-4674-b8d5-8ccbb1ced788"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="5cddf7f0-bb77-4fbb-aa28-30224de5a66d">
+            <classMoniker
+              Id="f7e2fa89-4305-4b20-ab9e-6605490bd978"
+              LastKnownName="YahtzeeController"
+              LastKnownLocation="Package1_1603.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2d40c238-2038-49c9-895b-242e94c72b04"
+            name="h"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="561c6854-27dc-452f-a356-4aeb8997784d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3Dh"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="acc30fe8-d9bd-44b5-a72e-0ed269afde6c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b87489d2-4d4c-4c89-a470-a57d618fc583">
+                    <propertyInstance
+                      Id="f975161c-13f1-4a30-b73a-8126ffcce424"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af9ca2e1-b3ff-44c1-9d15-05841a84e176">
+                    <propertyInstance
+                      Id="1a40ca31-c0d7-4760-b01f-66677f22d692"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5bd7c42-1295-4003-9e20-dc8927ecfb78">
+                    <propertyInstance
+                      Id="dafb98b4-5644-43ff-964f-dd6dcea3523c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c96c4baf-a83e-4716-b660-e9bbe12c3c79">
+                    <propertyInstance
+                      Id="8ca22d7d-d53f-468d-8591-29fe5a837efa"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74dd41ba-e325-451c-81ce-03938b273946">
+                    <propertyInstance
+                      Id="0d075b28-d87a-4e65-9a36-1cc1b2ad5463"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3ea4f99b-4e6e-4f68-944c-6c8c983d1671"
+            name="w"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1f41e9ad-16a7-4d33-a1a8-3a254db34606"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3Dw"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="21dcc323-44ea-4285-b027-ee127c4004be"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30283ff9-b42b-4ae0-9bcd-c17fa0837cf4">
+                    <propertyInstance
+                      Id="de208701-3cc1-42b4-8e32-b2bedc0ea49e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30d67263-b61e-48f1-856f-17e50402a948">
+                    <propertyInstance
+                      Id="7d2ba330-0af3-4021-aee4-c4a17f78791b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12417010-d462-4f33-8143-b2196a4483c5">
+                    <propertyInstance
+                      Id="e4d1b046-1954-42dd-a04b-44db84ddc44c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e392de32-2fc3-49ab-af76-7fc253f11586">
+                    <propertyInstance
+                      Id="86937e07-93bd-4c32-83f5-586220b72601"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c42d645e-30bd-49f0-a616-62129b694440">
+                    <propertyInstance
+                      Id="f40dc0bd-31ec-4c9a-b4a8-e4f9d38e4a01"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9ac1b11d-ee13-40a0-a74c-7c6e3f33d478"
+            name="showClassicYahtzeeMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="626bd128-6a7b-45de-b3c8-dd8d9aee6228"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DshowClassicYahtzeeMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f1c76a49-6751-4f95-93b6-2f1ef780f3a9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65905db5-0bcb-4555-97c2-49b534aa9919">
+                    <propertyInstance
+                      Id="d2b199e8-3eb5-4210-8d0c-c153dd00a6d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8354f5fd-e7c0-4993-85b8-af002977a625">
+                    <propertyInstance
+                      Id="8b56b01a-6060-4eb3-bc52-4c5e74d818de"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad7b5264-2f73-47ca-9ef5-efc777088214">
+                    <propertyInstance
+                      Id="62bbeecb-cb2a-4475-b92a-ad2de5ecf44a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4d85ae2-b856-41f2-9a08-d504adcb20e8">
+                    <propertyInstance
+                      Id="f55098e9-b6e0-4852-8eb7-d5e867fbbaae"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a53cc95-5c3f-40da-bdc8-8a3658dcc5c0">
+                    <propertyInstance
+                      Id="ceb92f85-d135-4fb6-920f-9d6617edb4ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="434ac3bf-c57f-4f39-8008-484752595e72">
+                    <propertyInstance
+                      Id="1d2c64d1-8659-42fb-b744-771ab791dc1e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e50eb0a3-8a4f-4c98-8809-b3ee5e498616"
+            name="rollTheDiceMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1e8dbeb6-f864-41a0-b6a4-064c45673bed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DrollTheDiceMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="996c9099-f0d1-49e5-aef5-7918ee502bc3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e33b78b2-9058-4a7b-a0b3-e30c69f40e4a">
+                    <propertyInstance
+                      Id="ecfd4c87-06be-4c70-8966-f4b866452654"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13f5d301-a06e-4c53-8547-946cceed9a8b">
+                    <propertyInstance
+                      Id="f155604c-344a-4b00-9562-3340b7a21f31"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a92c9457-b2d3-4c25-981a-bafc993891a9">
+                    <propertyInstance
+                      Id="4d255c7f-f021-45d2-9c51-bbf77627e388"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2625ea9e-5bc6-46e4-aa19-baa54262e002">
+                    <propertyInstance
+                      Id="949fcad9-97a6-4006-bf1a-8a72138311b8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8e232ee-e695-4776-8f3f-796f06503e36">
+                    <propertyInstance
+                      Id="fa3025ee-40e9-4eed-9e3f-2ebbc019d760"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2218e385-1378-4c66-a580-d99e9649393e">
+                    <propertyInstance
+                      Id="ad0eb89b-8b60-4813-b6c5-229df6ed4bb4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e2c2249d-ead7-42c7-869f-ae9788a70bdb"
+            name="showPlayersTurn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2b34aaef-89cc-481b-90dd-4b82cf577629"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowPlayersTurn OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3f65071b-7e3b-4d9b-b2e1-012f153bea1c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bfa03e1-9583-4fe1-9920-15024727d121">
+                    <propertyInstance
+                      Id="eea9a2c4-d451-4b22-adf9-57038e8c7001"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7c448f6-6bd5-47c6-ae3c-4b28d7746015">
+                    <propertyInstance
+                      Id="f26afa1f-4173-47bf-8961-461e1fae13c1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1b7904-8078-4a71-acf8-5e8495597bdb">
+                    <propertyInstance
+                      Id="cdfbc6fb-264d-48f7-ac31-c90f0d59bfe7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cceaa83b-6e74-49d9-a8d7-4556bae2e84c">
+                    <propertyInstance
+                      Id="8e5c35df-6783-4559-9b6c-9191e93fa01d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc99bd9c-624a-46dc-9d64-5d461e966783">
+                    <propertyInstance
+                      Id="36722c18-4842-4e42-9d7b-2c197b436bc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="520cf645-6159-4c58-8c98-8162e3c2c47a">
+                    <propertyInstance
+                      Id="c04bd421-1c16-4be6-a4d7-13a172af878e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fb0744c5-5ae2-4842-ba06-0d79395adacb"
+                  name="p"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d5cef281-9d60-4888-975d-8766fd61b09d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowPlayersTurn OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]) ParameterIdentifier%3Dp"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c700a305-47b3-47bf-acf9-460a6ae02f1c"
+                      LastKnownName="Player"
+                      LastKnownLocation="Package3_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="17d36e10-09f0-4080-9c21-7d906bfbdd39"
+            name="showDices"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8e13f4a1-8318-4be7-8fe9-a2e25590832b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowDices OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e09767a6-523a-4252-a5fc-20d88cbd3138"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02a8abc3-94ab-4d04-baaa-2c29e514a2b9">
+                    <propertyInstance
+                      Id="10de0836-2ced-4de1-bf9a-e4da3580dead"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90bbed18-4f82-4c9b-9b0e-cc14ba698506">
+                    <propertyInstance
+                      Id="24f6b569-448c-4c4d-a9be-ae46867b1259"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c69205a-ec27-463c-8e09-a32b8397b4e5">
+                    <propertyInstance
+                      Id="b0ed0fe9-c7ab-4307-9c55-52e13fda4fe4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e077401-2196-4252-bc2e-c8cdf8eb0a99">
+                    <propertyInstance
+                      Id="f1dcfa03-8877-4e1a-9218-f73b55b2f46e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e7e9f97-454e-4086-a2d6-38d49f6337d0">
+                    <propertyInstance
+                      Id="8d6f2f70-bc37-4d58-a0d7-b52f0a964035"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd8f1147-f479-4723-9efa-ec1320d5771d">
+                    <propertyInstance
+                      Id="e1ae2b1e-04fd-4f1e-a7ef-02a4816380fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8706873d-ce85-40b8-b579-56dea36eba2d"
+                  name="dices"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="72d732eb-e585-4f5d-8cf8-30272d885ecd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowDices OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))]) ParameterIdentifier%3Ddices"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7ed89948-a589-4253-befd-528974fe4283"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="396d8354-9e46-41bc-ac57-e0c4d0e5805b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6b4265fe-a517-4993-aec4-9ef63bd156c9"
+            name="showFinalDices"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d76c1678-34aa-4eef-9008-cfdf9568ac81"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowFinalDices OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="83a337f5-9e09-4123-b9a7-970514864ade"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ada1417-0059-4660-b333-c325d6a952c0">
+                    <propertyInstance
+                      Id="79d5ecf3-79d0-4740-834d-20c0229bc2a0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25c91e05-fa53-4e15-adb7-a9404f47abd4">
+                    <propertyInstance
+                      Id="af881ab2-0a34-4fc7-882c-6a28867e193c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbf1e6ac-d32f-4913-b30c-256ced214495">
+                    <propertyInstance
+                      Id="ece176c5-a119-4969-bf05-6ef02d039b5c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="565b9124-2502-41f0-95e8-3ab7845ea4bb">
+                    <propertyInstance
+                      Id="5f3aee7c-c7f9-497e-978b-7b7d414b7120"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65df8481-d48f-4ac1-b0d9-15bcb234a02e">
+                    <propertyInstance
+                      Id="e319535b-0c8e-44cb-b257-1911bec6cd2f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d36bbea0-2e97-4ff7-a384-53f57d447bb9">
+                    <propertyInstance
+                      Id="82a53453-0d70-4a6e-b1fd-217dfd35d07a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1bf6f021-0140-4fc9-91af-2fe672f1ed37"
+                  name="dices"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="cd6f0ad1-6745-4965-bc3f-a4b267c017d5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowFinalDices OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))]) ParameterIdentifier%3Ddices"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a15ac24d-f324-40ac-86ac-ae9c132177c8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="afb1b932-a3a4-44d5-b901-0bcdb600a06d"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2cdef885-a1f1-4471-9acd-1531e840a8cb"
+            name="showIfUserWantsToHold"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="12a28d3c-fc21-478b-8e51-8d6e1c9563dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DshowIfUserWantsToHold"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="35302dcf-f900-430a-87f8-ec6a7876c5e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66655d0c-7b16-4100-8f4b-c711c8aade5a">
+                    <propertyInstance
+                      Id="10e5f454-8277-421d-98fc-b752ee8afd63"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cecccbca-4158-4ca6-b34f-736882d97e4d">
+                    <propertyInstance
+                      Id="531a3b42-3d95-4305-8b94-4da9ff881a35"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ae58e0c-c52e-4bd0-bdb9-c89e0676574a">
+                    <propertyInstance
+                      Id="74efc2b6-51a3-432f-878a-8eac6c948938"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="755d3e78-6c1c-4aa7-b0a4-f3c655a46c4b">
+                    <propertyInstance
+                      Id="d2ad446a-e1bc-4aac-9522-ea146fc5db5a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab2a9ad2-2214-4157-aca0-3d078e24a2a8">
+                    <propertyInstance
+                      Id="acc40073-8def-4097-a2d1-f10d5dc45b8d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ef917df-a3bf-4cdf-8b0f-c1d0f594d200">
+                    <propertyInstance
+                      Id="9bd1292b-9c27-483f-b9d4-fcf0a9aa8b8d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f5938fbb-d5ff-4823-b07f-f34143f30a09"
+            name="showTheDicesHeld"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1375384d-0e2c-4e56-9789-42b23902c786"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowTheDicesHeld OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62e41099-7953-4f2d-9631-7b26ac77e7f4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29d548ec-0ba9-4cd3-93ca-f49d2071a527">
+                    <propertyInstance
+                      Id="2edc5fed-59dc-40e2-9315-e9991e8da93e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09a36dca-9c12-47f2-8b0b-9d89dc6ee921">
+                    <propertyInstance
+                      Id="253cf950-1e12-42d4-b343-c6439f33550b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be0bec67-6ce0-42c5-91cf-394f0aa015ff">
+                    <propertyInstance
+                      Id="9ed394f2-7b81-4fb7-8ec2-fe9e15bc84fd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2906152-1feb-4ddd-a197-bdcb9687ca1b">
+                    <propertyInstance
+                      Id="0ae85077-5de1-4b85-b410-f8f8de411c87"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72637bd3-5e71-419c-aa97-2ea8cc09c1d0">
+                    <propertyInstance
+                      Id="3e8c2477-d4b0-43c4-84b6-1085333cfaff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa1ac097-9b4c-48eb-a228-9e894cc627df">
+                    <propertyInstance
+                      Id="d115dc5e-7c91-4c3b-b824-ddd0dc01a8c4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f55d89b-ce94-4216-a519-48d2bac6cc34"
+                  name="dices"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="c462c9c9-b4cd-4c23-b1a5-fade00557e0c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowTheDicesHeld OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DInt32 ArrayRank%3D1 ParentType%3DInt32))]) ParameterIdentifier%3Ddices"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="374d9845-f4cb-4ab2-80b7-bc97568a3ae4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c747d23a-4443-44c1-96b8-835cf3527303"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="278d1607-1c5c-455b-a74d-4a3018badf90"
+            name="showChangeHeld"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="75a2594c-1422-4267-baef-b3b038c4e88e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DshowChangeHeld"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ee7fe071-0bb2-4c61-9707-0d4506b6f891"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3ed7e65-7c00-4857-b052-cc404eddd840">
+                    <propertyInstance
+                      Id="86f8c3a4-e3b1-49fb-bf4e-7ef22d027bdc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64a66a6b-9ed7-45a3-985a-36acfd644752">
+                    <propertyInstance
+                      Id="0f56b4bc-8e88-445f-9a68-b3131f1cf52c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2098a2a5-d21b-4d8f-8c24-d987f62a0e2b">
+                    <propertyInstance
+                      Id="463c8b0d-5879-4330-9d72-78d0dd5c4d4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a620305-f256-4528-a556-350aed2e60b3">
+                    <propertyInstance
+                      Id="14a45652-2c8b-4fc2-99fe-db6587bcdf96"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82ad5ac1-cd4f-47b9-a67c-6fe250623ffc">
+                    <propertyInstance
+                      Id="1cc8a8e7-0133-410d-a53f-0c0d69a749a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71897c15-2f28-4af0-af1c-a177c6b6f8cc">
+                    <propertyInstance
+                      Id="96043f31-e634-4087-b280-0fd2da674f15"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4d508d8a-50e4-41ee-817a-65fcd346801a"
+            name="showWereToPlaceScore"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="228133d3-984f-4280-a9ef-7b492a8dad6e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DshowWereToPlaceScore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d286877b-32fe-4bf5-95bc-51f720121a6d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed9efd4b-feb6-4c80-9d1a-cbb9d332dec3">
+                    <propertyInstance
+                      Id="c2628090-710e-4e3e-a8da-217501b73241"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31d1d841-d628-4e67-b93e-c373e021ff3a">
+                    <propertyInstance
+                      Id="b4549e65-5bbb-4333-b374-0b60a7aafb52"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a786d5e3-856e-4860-aeb7-501c9b19f144">
+                    <propertyInstance
+                      Id="a4abb974-c313-4479-b3c3-17da98d0a8e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f7af467-abf8-4c7d-a12b-d070123a3d81">
+                    <propertyInstance
+                      Id="e6e41af9-d51b-4399-a3c7-a7f387776e80"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c59365fa-9588-47f0-88a5-3e9783f44fa1">
+                    <propertyInstance
+                      Id="6e6cc0ec-191e-4a19-90cb-85c88b6c12bd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3241423-a4b9-44eb-82f0-466aa96b89f2">
+                    <propertyInstance
+                      Id="3a93595d-77dd-40b8-a947-3c51358f9cbb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3d5cf6aa-2da5-4a49-9546-a5db1b6c7df3"
+            name="showSaveMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="00650e69-ddc7-4262-a17b-544f57642638"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3DshowSaveMessage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="63434b7f-1504-401e-ac78-e9484b9e35bc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abc150d1-b883-4b37-8aed-056c46f1bb5a">
+                    <propertyInstance
+                      Id="70a59235-00bc-4929-ad3d-22755726c1f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6251acf-eb8e-47ff-b721-a1e436d875b7">
+                    <propertyInstance
+                      Id="d1b2244b-3da5-4a0f-b557-bc03c4a31bfe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e48ad6a1-d214-4a07-b231-f64d337d39e9">
+                    <propertyInstance
+                      Id="963d4fb3-eaac-45d4-a958-1657cf27f944"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33c441af-08d5-4ee6-aac9-c8a4a92344e7">
+                    <propertyInstance
+                      Id="3a6aac4c-ea1d-4c65-9acc-51ef44be5b9d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="995d7ac0-45e0-48c7-b23a-0f6f10223213">
+                    <propertyInstance
+                      Id="578409ef-81f1-4477-b475-77eabd985938"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e1e61a2-1f1b-4fac-8371-cd90f73836cb">
+                    <propertyInstance
+                      Id="551622f3-a1bb-4863-87d3-251e7fc0b2ed"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="815be6c8-8f5b-49dc-b5d2-2cdb6970e227"
+            name="showBoard"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cb3d484b-04ca-4749-a8f2-7ab290b5be3f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowBoard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b87c7c34-3de0-48d0-b640-438b29789a4a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ba1bb89-4a6a-4e58-91a5-0842aac1839c">
+                    <propertyInstance
+                      Id="a6d50d50-a423-4154-9be3-c129e7921a80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60fa028e-6f60-4b2b-9cc3-ca4ec6933117">
+                    <propertyInstance
+                      Id="6f2a8a15-92db-4f6c-a26e-bc91da84723a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ad6d93d-ad76-4622-a793-345893c99ee2">
+                    <propertyInstance
+                      Id="cb170954-152a-47a4-a8a1-0c73dc7080a2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce9aaddd-1fc7-48c1-9803-3a36844beb65">
+                    <propertyInstance
+                      Id="6da99a57-a313-46ff-8478-8e988fef267a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f69e89a1-714a-48ae-9c4c-6375f226ff4e">
+                    <propertyInstance
+                      Id="3bc43c80-f772-48cf-88ee-f84027614908"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39e4faa4-7bc7-4387-b829-19d492bb5825">
+                    <propertyInstance
+                      Id="9e6080d1-25ef-44de-9fd0-5765b569f22c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7219d43c-9a73-47ac-a8c3-7eec44d19919"
+                  name="players"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7d18604a-f181-432d-9dc9-b0039ca6e75c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D(Name%3DshowBoard OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))]) ParameterIdentifier%3Dplayers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d08d823b-e4dd-47e8-9fa8-174d472aed59"
+                      LastKnownName="List&lt;Player‎&gt;"
+                      LastKnownLocation="Package6_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2088ac12-bd8f-4c7b-8a85-15b7872aafe0"
+            name="ClassicYahtzeeView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9266d31f-6bfb-48ee-8d69-5b944ee63933"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DClassicYahtzeeView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="582ed565-17ad-4cd1-916e-8dcb6249a2fd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f89501e-ebe6-4731-ac65-0c0ae4ff0c4b">
+                    <propertyInstance
+                      Id="0f77338b-7ef6-4931-923a-9d9c0f28b643"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f876a30-2867-4c74-9212-e23783e37397">
+                    <propertyInstance
+                      Id="b44aca87-4e70-4b2d-b2d6-2408dc6912e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dace0418-b538-4e81-b1f9-4ccc64734775">
+                    <propertyInstance
+                      Id="eae2ec83-4b6c-4e77-91c3-808319ed5a46"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee1816a7-fd58-4a93-a433-80d087ff1552">
+                    <propertyInstance
+                      Id="a6e3be01-1ce1-4b52-a82e-1bab22f7e718"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a5f9483-c011-40c7-a784-76bc4c9ad376">
+                    <propertyInstance
+                      Id="87ccdbb8-7301-4a53-b681-c8e45dbc5a72"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a86b5741-2146-4535-8d0b-8dbd02fee435">
+                    <propertyInstance
+                      Id="6998fd5e-9c9b-4752-9e97-905574745806"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3c8bf7af-f571-4a2a-ba63-e9446746b0a4"
+        name="MainMenuView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3c5fda16-dd24-4ab2-b633-00ff520bc24d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bd5c8f95-884c-478e-9cd5-0b8d21231b6a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad8416e7-6bc3-4fad-9133-fe0cfeca7902">
+                <propertyInstance
+                  Id="0c07c0d6-14f8-4e51-9c1b-1b3567e3a26b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1224c47-eb8b-4c4d-b00c-dabdca6b83e6">
+                <propertyInstance
+                  Id="baeaab6e-9d44-4619-baa1-4bcaf1c770ab"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="323fea39-899e-4789-ac50-24ea35328a1d">
+                <propertyInstance
+                  Id="2fa10938-eb5e-4c31-b26a-08e3d03f8b33"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e3d6012-8e32-4baf-9ee5-a2cae7d428e3">
+                <propertyInstance
+                  Id="5f42a056-fe34-4fa6-85e8-0a39e761d510"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d252a1bf-badc-415a-98c9-f8c76b4b4756">
+                <propertyInstance
+                  Id="8edfd566-30bd-4cdc-870c-86662b3e82aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1ec253f6-5a60-4b73-a3ee-b18d1f1a8a40"
+            name="showMainMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff194baa-39c5-466f-8b60-9b68ed492254"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DshowMainMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="29ae17af-3de7-4f64-8069-2f5920ecf13a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9d032dd-6cb9-440d-aec7-844a6d03e27d">
+                    <propertyInstance
+                      Id="f6b81ae2-b91c-4683-b50c-5fad9efd533d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14a91557-8b4f-4e7f-84cd-e1324620babb">
+                    <propertyInstance
+                      Id="75a825df-daf3-440c-b183-bfaee5c12704"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c949330-903f-4a42-9812-7567b0bead27">
+                    <propertyInstance
+                      Id="67d0b697-dd35-4180-9881-27bc6a5e12ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="972f8881-81c5-496f-99f5-a701ac6d7620">
+                    <propertyInstance
+                      Id="45ae6069-9429-4875-99db-97b572b10d85"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="677213a5-5d3b-43d8-909f-3e2ed072d56a">
+                    <propertyInstance
+                      Id="c9ab9ac3-9502-4427-8869-b0592fceacfe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="612ec4df-fda7-49b3-969c-ad5a7d73d60d">
+                    <propertyInstance
+                      Id="314653ff-e351-4d68-a3a0-56dce341e43a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="fe1ff2c1-9068-4389-ab86-c6f018ba5224"
+            name="showYahtzeeHeader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f3df9035-357a-4345-83ab-9568d5d7873b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DshowYahtzeeHeader"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="14953506-d4c9-4847-a3b9-5355ef0c4d3b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b004b1dc-8035-42a7-b476-6758a405f3ba">
+                    <propertyInstance
+                      Id="8c34a01b-b2b5-4bfe-80fd-5f6d082bc068"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="941a1b68-e7f9-4c8a-ac45-53d4dd099233">
+                    <propertyInstance
+                      Id="e3d9d440-f836-49d4-9968-ba553c8bb695"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2db9c26-c1c1-46c1-b17b-53cd5e030aec">
+                    <propertyInstance
+                      Id="2d1349f6-107f-4a64-be65-36461c88c7d1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27ca0dc2-5bde-415f-859c-65aed012c9f2">
+                    <propertyInstance
+                      Id="c0cb5b9e-d2ff-45dc-8634-7ed7f5777feb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3796e74-e160-438b-9690-727f3d34e239">
+                    <propertyInstance
+                      Id="36724887-070a-48ab-bb34-252f7c11c5bc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fc5ad75-c0bb-44fe-aadd-7eedd8c0909c">
+                    <propertyInstance
+                      Id="1f6d1440-652f-4857-959e-d3bc6f461b9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2d579956-7ae2-4421-a1ec-2fc0c26b18cf"
+            name="showYahtzeMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e07bf79-ff0d-4b02-92cd-da8c99f7203d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DshowYahtzeMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1a45d22c-98e3-47ac-9818-039a0820d7a1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf7263d-3761-4912-ad64-648d0380841c">
+                    <propertyInstance
+                      Id="79dc77fd-7872-4815-9988-4254d21862f0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2856bc35-3f46-4ec1-8ee2-f1b5f48f15c7">
+                    <propertyInstance
+                      Id="ea711e53-8516-4a0e-a4be-e660ac9ced3c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="211d5c71-67b6-4e18-a554-154ce553ba8e">
+                    <propertyInstance
+                      Id="5920eff8-6cda-48fa-ae59-2f4f3e58dfab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="109c97a0-c4d3-4963-bfdc-7dab8dfb567c">
+                    <propertyInstance
+                      Id="f777efb7-444f-40a3-8200-779d477427ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2137657e-ff52-4b1f-ac8c-a753c90f6477">
+                    <propertyInstance
+                      Id="4222d0bc-d449-41f1-af8b-ab8c74031240"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8b7e5a4-27de-448a-aaf9-01fc1bf42551">
+                    <propertyInstance
+                      Id="d1875f45-3474-4c6c-840b-03ef52c7c624"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2fb70578-5a7b-4d1f-8f1c-ca871f2305b4"
+            name="chooseRightNumberOfPlayers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c7c73ec7-73ef-4f5a-bca8-b7dba2deaf81"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DchooseRightNumberOfPlayers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="300fd422-1e9b-4549-93f1-92f957353875"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d38ce7eb-7b1a-4fab-9d44-c217d6b5e592">
+                    <propertyInstance
+                      Id="7081edd4-d8b5-4a76-ad15-3efba402805b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c61ae98-6918-4cff-b053-a4e834e76ef9">
+                    <propertyInstance
+                      Id="981986f7-f4dc-4951-a8e2-bec1525878cb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="821f6ae3-163f-402b-9ab5-6364d2fcff44">
+                    <propertyInstance
+                      Id="2da48bab-d728-4e65-8a6b-430b09f8ed67"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74fdd294-e7cb-48a3-a1a3-bed8944a4b39">
+                    <propertyInstance
+                      Id="226a0661-9835-4f5a-aab0-f01093b55c66"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac9e881d-9535-4cc7-a2d6-d852d853ac29">
+                    <propertyInstance
+                      Id="2ed77c9b-15f8-458d-9d9a-9b027017912c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="004855a1-af56-4507-ad4d-6a3ef5bca7dd">
+                    <propertyInstance
+                      Id="bc918a8f-8d5d-474e-90dc-ba9782c1fa6d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f8ee33e2-9c68-4319-ab9e-3e9457a3435a"
+            name="enterNameOfPlayer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ce27c82-f302-4670-8f79-73c870dd3704"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DenterNameOfPlayer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7e64024d-8275-4f95-bfbb-8f27c0199573"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0787874-d9e8-44cb-bbaf-cc7721a01f0b">
+                    <propertyInstance
+                      Id="18d97461-10aa-4204-8629-c3cb596eee34"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51066608-e70f-438d-b6af-e9f56200770e">
+                    <propertyInstance
+                      Id="8a720d5e-177e-480c-82c2-277ed1cd9dbc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0226bad-d4c3-4fd5-a3c3-8982c3ed1e0b">
+                    <propertyInstance
+                      Id="e4631e80-b0bf-4cfe-90a1-f979e725e3b9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88772b9-5aa4-4b92-ba9f-a459a0543a88">
+                    <propertyInstance
+                      Id="3b810dbc-39da-433c-a74d-88f081f60781"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a137c90f-eac9-4c50-b45f-0a3c4a77ddad">
+                    <propertyInstance
+                      Id="472791b2-5b18-4d79-837a-3f44b21a6067"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="062f8094-1755-4483-be0c-60dcd4fb3b8f">
+                    <propertyInstance
+                      Id="37dc1648-48ef-4733-b9c4-fc2796db22a0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="40dc9251-fcee-40ee-a7ef-f87235e9ca57"
+            name="scoreInWrongPlace"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="abe9d001-be50-4669-bc8c-ad4614712626"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DscoreInWrongPlace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d96b11d6-70c6-4288-bb6c-2d2551e26cb2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6e1026e-3c72-4074-aeb6-98cb95bd15c3">
+                    <propertyInstance
+                      Id="027afe50-452e-49c0-9e91-9a4064a1db51"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fadb0449-2d17-462e-998e-fa89e7399a63">
+                    <propertyInstance
+                      Id="88c22cd0-90a1-4b84-838b-b20b1608901e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0c6ad31-a842-41d0-a4b0-334c06ee2320">
+                    <propertyInstance
+                      Id="b2b38e4b-20ee-49ba-b5b4-bc122bd9fdad"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f07da6a-c128-473a-8df9-d8094689813b">
+                    <propertyInstance
+                      Id="286a50e8-1eb8-407e-985e-4492f25bcb64"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2293ddc3-1ac8-4b5b-909d-597cc57ff35b">
+                    <propertyInstance
+                      Id="ddf772ae-69ef-43da-98c8-94e04e887718"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1bf4f0c-825b-4d1a-8c70-7b4faf5ad7db">
+                    <propertyInstance
+                      Id="14016cc3-24d8-46cb-a9eb-9de0b35c3a72"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="dd49a094-00a8-4912-ac31-b0bf4935ba06"
+            name="showPressAnyKeyToQuit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1c8ae009-95c0-470b-8cbc-400f5240bc99"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DshowPressAnyKeyToQuit"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dafc93bc-55bd-4cb8-a87a-7570eff648ca"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19608b8a-a6d0-4020-b3a9-2f18cc269275">
+                    <propertyInstance
+                      Id="c1eb9abd-7b5e-42c2-8c0d-e1f4ee4c5e12"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39b3d696-2413-45dc-8882-99067187c0c5">
+                    <propertyInstance
+                      Id="e2cbe8b6-a6da-4cfd-8bd3-3ed0fb183399"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd6fad50-471f-432d-95ab-ab8e53c899ad">
+                    <propertyInstance
+                      Id="e635f200-0c4c-4bd5-b02f-866cf32fbba0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25f1b9dd-6bb0-4f00-9f9b-821aa9093288">
+                    <propertyInstance
+                      Id="5646b7a6-8241-40f5-968f-65c662c6a718"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b2d5d15-ec2a-4936-8d17-9f95771be63b">
+                    <propertyInstance
+                      Id="3578a60d-7dab-435c-80ca-cdaf1193142f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e33882c2-faa1-4cb0-8c3b-3a583a7a780d">
+                    <propertyInstance
+                      Id="e8ab2d06-b992-44aa-8909-0edf2c543650"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="08d2720e-64b3-403e-9e69-edfdef61e793"
+            name="showPressAnyKeyToGoBackToMainMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8f2cba3-56ec-407b-a5d7-452cd2092591"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3DshowPressAnyKeyToGoBackToMainMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f789e1e7-034b-4e0a-a863-d781cfb80c45"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb4f609d-8283-4278-8bcf-d272a247224e">
+                    <propertyInstance
+                      Id="a794be6a-e829-4138-aa21-c75ccd01cfc1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4f5389d-e9d9-46e3-94f8-723f9a8cf078">
+                    <propertyInstance
+                      Id="3a61843a-cc73-4b62-9f3b-9edd7fbae838"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6e5779d-15eb-4c90-ac8d-2eace3ea8167">
+                    <propertyInstance
+                      Id="fc73f8e8-b657-4ea5-a407-a979e8665055"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="817e597d-124e-4f05-980f-dc96c96d984a">
+                    <propertyInstance
+                      Id="b75b4124-5334-440f-9425-fc87c91bdeb5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce2bc472-5263-4dfe-aebb-ef3e02191802">
+                    <propertyInstance
+                      Id="3ce4762f-33e0-42c4-8dc6-6b57cce9d3e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f3d13f3-ce36-4fa3-930a-e78ebf68a9c5">
+                    <propertyInstance
+                      Id="22289638-a197-4b90-96c4-f2cf693f46c0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="870d1393-827c-427e-b9e1-0be049123702"
+            name="MainMenuView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c76113a1-695a-4ca0-a425-c0e4e79e2253"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DMainMenuView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d58bd1cb-5501-46c8-9f52-a85b6fad81c0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="452451ee-8ad5-49d7-81f9-bb330805c648">
+                    <propertyInstance
+                      Id="06f314c9-5b5e-4e60-8b85-76817c65b914"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6574ac68-50d8-4ca9-b970-fc4ff12941ec">
+                    <propertyInstance
+                      Id="7f8e2a24-f0fd-4c4b-805a-9956f568c6f6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d97a7de0-b1c6-4e15-a99c-9f62980eb0e4">
+                    <propertyInstance
+                      Id="d24811f1-b4b2-429c-9caf-9cd423635383"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2beaa525-32c4-48b7-8152-8cc51006790d">
+                    <propertyInstance
+                      Id="89436b96-8c5f-42b9-bb9d-6437f3cd0a36"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d273cf1-3be3-4233-8f25-86b15b2b0823">
+                    <propertyInstance
+                      Id="fb75c058-03d7-43b7-977e-729f049148db"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ed54b79-62db-4227-95bd-6b3768b15b79">
+                    <propertyInstance
+                      Id="b80a9587-5032-489c-a6ec-c12ba8329d75"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f22fba05-bad3-424e-bccb-380931555782"
+        name="StrictYahtzeeView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ab05467e-9285-460c-b35e-eb3d9fd480a7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DStrictYahtzeeView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4cd3a435-bb4a-40ce-a18f-9d0c054e42fe"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f14eb480-3467-42e6-8887-63cd2aec019e">
+                <propertyInstance
+                  Id="9a68c068-529d-4e54-b359-9df01d093727"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7df749f-79c2-4d1e-92fa-7762a7ea16e0">
+                <propertyInstance
+                  Id="2d27922e-f52e-4bb1-8c1f-fc29f1c01594"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d7401bd-d495-4573-b056-71a3ac4e363b">
+                <propertyInstance
+                  Id="0cb52756-60a5-42a7-ad80-189bda3c830d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1815d68a-c474-44c9-9fe7-e059d4f9ea3c">
+                <propertyInstance
+                  Id="ad2ea029-55d9-4b6c-a5fe-9dd087866481"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca0c17b6-ed1a-41ee-8a66-6a7f5726501e">
+                <propertyInstance
+                  Id="2cc06e06-85be-4685-a14a-9a1c04a1b882"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="4de74a3a-7436-4240-b29f-b1856743d2a7"
+            isSubstitutable="false">
+            <classMoniker
+              Id="26d9dc5e-dc45-4296-bede-5c30df8b37db"
+              LastKnownName="ClassicYahtzeeView"
+              LastKnownLocation="Package2_1603.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="dc9fc278-338b-4387-b74a-dd81d34b84f4"
+            name="showStrictYahtzeeMenu"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d5a73043-0f2e-454f-8ff8-a117795189a9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DStrictYahtzeeView Member%3DshowStrictYahtzeeMenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b04ffaf-d34b-4d44-8922-27fa3e14d2ca"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1aefae37-cd36-461a-9a38-c131814dafef">
+                    <propertyInstance
+                      Id="2a15559b-104f-469a-af75-8df2e91d842c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dabc619-7461-4d62-8f81-169d9dda8819">
+                    <propertyInstance
+                      Id="ae02d728-6786-4050-aa3b-48f2a8aa9ceb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5eec89d4-a828-40eb-9611-e7c4d642069f">
+                    <propertyInstance
+                      Id="f4ad3e22-2253-4ddc-b31d-5cb6081dc8c8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fd35d94-59ae-412b-b070-41a7dbc8b6a8">
+                    <propertyInstance
+                      Id="3ee9fb46-8ef1-4c1b-b161-47c05b174f67"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1eda80b-701b-4f8b-b69d-72ad302d1b0d">
+                    <propertyInstance
+                      Id="5eb50c95-af4f-4333-b77b-18f8475eff34"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c79cfb4-e3e8-430d-8931-a939c914bc87">
+                    <propertyInstance
+                      Id="4f10f096-998c-4363-8c0a-c903893091b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d63dfe80-e563-4907-8250-e3e3a773d53b"
+            name="StrictYahtzeeView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="09f944b4-756b-41a8-948b-54b8da646960"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DStrictYahtzeeView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a3765cd9-ae6c-42ae-ac45-92b1c7dbe0d0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92946ad8-6885-4e23-b503-5bc879097dfa">
+                    <propertyInstance
+                      Id="83f951fc-44d8-420e-b237-96ea9733f977"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea127565-b184-4712-b40b-7d3cd9b13058">
+                    <propertyInstance
+                      Id="8d21ac7d-38e6-4e2b-bd28-32ed9a1e4ed5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f01177d7-cb7f-4b17-a302-19be853aa081">
+                    <propertyInstance
+                      Id="406ae4a9-4cb8-40d3-98c8-1cfef9adad10"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60b77d54-fd30-49ff-9b0b-39004ed43252">
+                    <propertyInstance
+                      Id="37d5c16f-0aef-4df6-885b-a822ce729622"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af5ace41-2b34-493b-bbea-80c09a692e97">
+                    <propertyInstance
+                      Id="15f81be4-5821-4090-9a22-d7e6b36c94cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28d832da-09c6-4fdb-9972-82806cbedbd0">
+                    <propertyInstance
+                      Id="dc2e5654-7fd7-44c7-b271-b1f8175a366d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4763f775-c0fb-4c61-bc64-028e662e2c64"
+        name="ScoreListView"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c7b18b30-7968-4ebb-93f6-c96c28844eb5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a29058a2-3abc-4e7d-91b9-2c0bd56c72e5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc203cc2-c51c-47c3-802c-300cc98fd86f">
+                <propertyInstance
+                  Id="7968f5c0-d431-4139-b82d-926a6fe959c3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85bd419d-6db1-4904-8f1f-830bbdedb36c">
+                <propertyInstance
+                  Id="18be486a-d9bd-4a91-8180-d91a82b6d301"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="076671fb-8d9d-4fcd-b114-df20d31f4365">
+                <propertyInstance
+                  Id="0f341264-e9e4-464b-8e09-a6c701f54160"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a25a923-4eda-4a40-9aad-9596f7e7e941">
+                <propertyInstance
+                  Id="5c95280f-a889-4a90-b42e-9dc38e48dae0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ba81388-bf1d-4c00-8901-c90d6835a725">
+                <propertyInstance
+                  Id="85b99368-d7cd-4013-9f8c-29a16dbd775a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="51befcc0-be75-4be8-8a34-6a39ad37f765"
+            name="showPressToBack"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3e6ed8ba-668d-4654-8162-559aff130ef3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3DshowPressToBack"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95b970f1-581e-46c4-aa8f-a71769fdc620"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39cc6c04-b453-41c6-a564-93cc85a2a11f">
+                    <propertyInstance
+                      Id="94de9790-fc7e-4b6c-8d88-792f35cbd287"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="056aceae-a150-4c89-91ce-05beac5088da">
+                    <propertyInstance
+                      Id="d33cbe16-cf22-43f3-a440-1cf1489c8e1f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15bb7419-dcb1-4a7e-85c3-1d1855f57a91">
+                    <propertyInstance
+                      Id="f2d6546c-9fb2-4340-9e48-f965af2098db"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eea0c88-f4a2-436c-96f0-0d94848e83f1">
+                    <propertyInstance
+                      Id="19504395-2da1-44d3-8664-fa24d749c68d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57329d0c-3133-4714-ad83-8ca38dd019d5">
+                    <propertyInstance
+                      Id="6163b5ff-4866-40a2-b1ee-f3807a8b18f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b9d6ec-427b-4056-ae27-c2549e1822c3">
+                    <propertyInstance
+                      Id="66eb7642-810a-414d-97c6-37417f8613db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="78ddfc62-0379-405d-a04a-9382549e796d"
+            name="showCompactList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e858a4c6-cfd7-401f-b4f6-e3318b303d37"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3D(Name%3DshowCompactList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8b9d6a6-461e-4ceb-9f18-492cfcb6123e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6775caad-2f27-4791-9f51-b6f5d0efab20">
+                    <propertyInstance
+                      Id="83815443-2bc7-49ed-8362-3863303c95ed"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16502969-0ad1-4c1c-ade5-5aea0ff378ee">
+                    <propertyInstance
+                      Id="56c8fb73-247b-4e93-b238-12c8365eec07"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f79bcb0a-3277-473a-b7f1-6d494f6e8b24">
+                    <propertyInstance
+                      Id="1ea22e6d-e2fa-4598-a7d0-75c8c366d355"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a28ed82d-e870-4095-bb6d-65f5bc272014">
+                    <propertyInstance
+                      Id="f0ed7328-819b-4187-9592-edb8caa5a0c1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf5d6c11-adf3-4f00-8fe2-b89b4ccb3cb8">
+                    <propertyInstance
+                      Id="9e17a9cc-5bd0-4d0e-a434-281fc3dd3fd2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66067de9-c9ce-411d-a897-f39a38df8bca">
+                    <propertyInstance
+                      Id="9ddd2310-9588-4d6b-99be-a70a82b8d557"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="59664fd3-9c95-414d-ab4c-d1805394fdee"
+                  name="players"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b4b58d0d-ee3f-4e27-ba29-3b6710652292"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3D(Name%3DshowCompactList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))]) ParameterIdentifier%3Dplayers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d08d823b-e4dd-47e8-9fa8-174d472aed59"
+                      LastKnownName="List&lt;Player‎&gt;"
+                      LastKnownLocation="Package6_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bc8822e4-8aa7-40f2-8d16-1b7fb6b25411"
+            name="showDetailedList"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a6ee17cb-f7d3-430b-9ae4-7ed8cc6fcd43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3D(Name%3DshowDetailedList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="12e0e51e-c59c-4d1f-8c64-37ec48a996b8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3370e03-3bee-4a6f-966c-b8595bb62d5d">
+                    <propertyInstance
+                      Id="8f039a8e-183a-42c8-9310-9412e309d20d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5b725cc-2b01-44bb-afbc-85f3add55e93">
+                    <propertyInstance
+                      Id="b2b04ace-1bc9-4fab-ab54-cd2cbf3fe8a4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5107fbe0-125a-495e-a308-bdfdc66f6f77">
+                    <propertyInstance
+                      Id="4dae78de-956a-498d-90fc-8310dacfa751"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5814e796-6d91-47a4-9ed8-5462804c4688">
+                    <propertyInstance
+                      Id="10889555-363e-4103-8be0-150c5f41833f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2728560e-ef70-4f82-9597-1794b5e5c72e">
+                    <propertyInstance
+                      Id="eba3514c-2f92-4586-af37-3ca7a3cddbd2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4671adf5-4f69-4855-ab0c-36cd074975f2">
+                    <propertyInstance
+                      Id="2dadfc9c-8cd1-4374-96ae-3fc1759783da"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ceb37302-a1cb-44eb-b1d5-325808598d75"
+                  name="players"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cb74ca08-520a-4261-8633-59efbd7dfde4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3D(Name%3DshowDetailedList OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.Model Type%3DPlayer)]))]) ParameterIdentifier%3Dplayers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d08d823b-e4dd-47e8-9fa8-174d472aed59"
+                      LastKnownName="List&lt;Player‎&gt;"
+                      LastKnownLocation="Package6_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="52e216ff-7411-4bf0-9fb1-4ecdf7245972"
+            name="ScoreListView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="295c298e-8f9c-4c0a-805f-4e4c353258cb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLinus%2FDocuments%2FVisual Studio 2013%2FProjects%2FYahtzee%2FYahtzee%2Fbin%2FRelease%2FYahtzee.exe&quot; Namespace%3DYahtzee.View Type%3DScoreListView Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36402694-0931-4f7d-8151-2a68364e515d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c421f33d-fb77-469f-981a-51541010e088">
+                    <propertyInstance
+                      Id="b7b7ca60-8c6a-4410-9ef8-52113b16e221"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16fbda02-71d6-4523-8081-8f0ce837b0f4">
+                    <propertyInstance
+                      Id="70f2a296-385c-4054-b8b1-26b434e3a8db"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b457f871-7427-4038-84cd-6091b6fdf31a">
+                    <propertyInstance
+                      Id="961b9519-1940-43d0-bd11-9a50c454821c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a7545ed-bcb9-4c55-90a1-6ca67d53986a">
+                    <propertyInstance
+                      Id="a42bcb0e-f9ff-4328-b61b-efe911789e59"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ecb136c-be58-4f00-9561-778506521bf4">
+                    <propertyInstance
+                      Id="9896f619-bed9-4f25-89a0-b5b2564049b2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="331a9628-f538-49e6-ae5f-7af95e0d13da">
+                    <propertyInstance
+                      Id="3aa2cd28-92f1-472a-9259-f0630569f7c4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

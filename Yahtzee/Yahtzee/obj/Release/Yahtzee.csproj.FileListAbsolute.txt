@@ -1,0 +1,6 @@
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\bin\Release\Yahtzee.exe.config
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\bin\Release\Yahtzee.exe
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\bin\Release\Yahtzee.pdb
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\obj\Release\Yahtzee.exe
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\obj\Release\Yahtzee.pdb
+C:\Users\Linus\Documents\Visual Studio 2013\Projects\Yahtzee\Yahtzee\obj\Release\Yahtzee.csprojResolveAssemblyReference.cache
